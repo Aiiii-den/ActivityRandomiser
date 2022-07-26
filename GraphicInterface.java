@@ -21,7 +21,7 @@ public class GraphicInterface extends JFrame implements ActionListener{
 	public GraphicInterface() {
 		super();
 
-		this.setTitle("My first window!");
+		this.setTitle("Activity Randomiser");
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
 		JPanel content = this.initContent();
